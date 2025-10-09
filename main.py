@@ -5,7 +5,7 @@ borne_maximale = 10
 
 def tcy(x,y):
     choice_dif=input("keep original difficulty? y/n")
-    if choice_dif = "n":
+    if choice_dif == "n":
         input()
     else :
         borne_minimale = 0
@@ -16,7 +16,7 @@ nb_essaie = 0
 play_game = True
 
 while play_game:
-    print('Jai choisi un nombre entre 0 et 10')
+    print('I chose a number bettween 1 and 10')
     answer = int(input("Entrer votre essaie: "))
     if answer > chiffre_aleatoire:
         print("number is too big try again: ")
@@ -24,9 +24,9 @@ while play_game:
         print("number is too small try again: ")
     else:
         print("YOU GOT IT")
-        resume = input("do you want to contunue? y/n")
+        resume = input("do you want to continue? y/n")
         if resume == "y":
             chiffre_aleatoire = random.randint(borne_minimale, borne_maximale)
         else:
             play_game = False
-print("See you soon....")
+print("See you soon....;) ")
