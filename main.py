@@ -1,3 +1,9 @@
+"""
+Tianchen yang
+groupe 407
+jeu de devinette
+"""
+
 import random
 
 borne_minimale = 0
